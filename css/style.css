@@ -34,6 +34,12 @@ ul{
     color: #ffffff;
 }
 
+.button_1:hover{
+    background-color: #70c5bc;
+    border: 2px solid #f4f4f4;
+    color: #ffffff;
+}
+
 /* Header */
 header{
     background: #35424a;
@@ -82,7 +88,7 @@ header a:hover{
 /* Showcase */
 #showcase{
     min-height: 400px;
-    background: url('../img/hawaii2.png') no-repeat 0 -200px;
+    background: url('../img/taro.jpg') no-repeat 0 -200px;
     text-align: center;
     color: #ffffff;
 }
@@ -95,6 +101,10 @@ header a:hover{
 
 #showcase p{
     font-size: 20px;
+}
+
+#showcase .surround{
+    background-color: rgba(53, 66, 74, .75);
 }
 
 /* Newsletter */
@@ -127,18 +137,17 @@ header a:hover{
 #boxes .box{
     float: left;
     text-align: center;
-    width: 32%;
-    
+    width: 30%;
     padding: 10px;
 }
 
 #boxes .box img{
     width: 75%;
-    
 }
 
 #boxes button{
     width: 75%;
+    margin-bottom: 5px;
 }
 
 footer{
